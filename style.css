@@ -1,0 +1,33 @@
+.carousel {
+	margin-bottom: 4rem;
+	position: relative;
+	margin-top: 100px;
+}
+
+.carousel-inner img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: auto object-fit: containt !important;
+	display: flex;
+}
+
+.carousel-item {
+	height: 40rem;
+}
+.carouseltext{
+    color: white;
+      text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    font-family: "Times New Roman", Times, serif;
+     font-size: 25px;
+}
+.sectietitel{
+text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
