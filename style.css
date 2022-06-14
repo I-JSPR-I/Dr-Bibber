@@ -3,7 +3,6 @@
 	position: relative;
 	margin-top: 100px;
 }
-
 .carousel-inner img {
 	position: absolute;
 	top: 0;
@@ -11,43 +10,36 @@
 	height: auto object-fit: containt !important;
 	display: flex;
 }
-
 .carousel-item {
 	height: 40rem;
 }
-.carouseltext{
-    color: white;
-      text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
-    font-family: "Times New Roman", Times, serif;
-     font-size: 25px;
+.carouseltext {
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 25px;
 }
-.sectietitel{
-text-align: center;
+.sectietitel {
+	text-align: center;
 }
-html{
-    scroll-behavior: smooth;
+html {
+	scroll-behavior: smooth;
 }
-.table-hover tbody tr:hover td{
-  background-color: beige;
+.table-hover tbody tr:hover td {
+	background-color: beige;
 }
- .modal {
-            text-align: center;
-        }
-img {
-    transition:transform 0.25s ease;
+.modal {
+	text-align: center;
 }
-
-img:hover {
-    -webkit-transform:scale(1.5); /* or some other value */
-    transform:scale(1.5);
+.zoom img {
+	transition: transform 0.25s ease;
+}
+.zoom img:hover {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
 }
 .forum input {
 	margin-bottom: 20px;
 }
-
 .forum select {
 	margin-bottom: 20px;
