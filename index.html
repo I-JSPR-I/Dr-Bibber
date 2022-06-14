@@ -55,10 +55,10 @@
 				<a class="nav-link" href="#prijslijst">Prijslijst</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#fotolgalerij">Fotogalerij</a>
+				<a class="nav-link" href="#fotogalerij">Fotogalerij</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#afsrpaak">Afspraak maken</a>
+				<a class="nav-link" href="#afspraak">Afspraak maken</a>
 			</li>
 		</ul>
 	</nav>
@@ -113,7 +113,7 @@
 			<h2>De Prijslijst</h2>
 			<p>Hier bevindt u alle prijzen van wat we te bieden hebben.</p>
                 </div>
-			<table class="table table-striped ">
+			<table class="table table-striped table-hover">
 				<thead>
 					<tr>
 						<th>Behandelingen</th>
@@ -133,10 +133,52 @@
 						<td><b>Behandelen broodbuik</b></td>
 						<td>€75.00</td>
 					</tr>
-					
 				</tbody>
 			</table>
         </div>
+        
+<div id="fotogalerij">
+    <div class="sectietitel">
+			<h2>fotogalerij</h2>
+			<p>Hier een paar sfeer foto's vanuit onze praktijk.</p>
         </div>
+			<hr class="mb-5">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 mb-4"><img alt="" class="img-fluid mb-4" src="img/DRBR1.jpg"> <img alt="" class="img-fluid mb-4" src="img/DRBR2.jpg"></div>
+				<div class="col-lg-4 col-md-6 mb-4"><img alt="" class="img-fluid mb-4" src="img/DRBR3.jpg"> <img alt="" class="img-fluid mb-4" src="img/DRBR4.jpg">  </div>
+				<div class="col-lg-4 col-md-6 mb-4"><img alt="" class="img-fluid mb-4" src="img/DRBR5.jpg"> <img alt="" class="img-fluid mb-4" src="img/DRBR6.jpg"> </div>
+                
+			</div>
+		</div> 
+        <div id="afspraak">
+    <div class="sectietitel">
+			<h2>Wilt u een afspraak maken?</h2>
+			<p>Vul hier uw gegevens in en wij nemen zo snel mogelijk contact met u op.</p>
+        </div>
+            <form class="form">
+				<div class="forum">
+					<input class="form-control" id="name" placeholder="VoorNaam" required="required" type="text"> 
+                    <input class="form-control" id="lastname" placeholder="Achternaam" required="required" type="text"> 
+                    <input class="form-control" id="email" placeholder="E-mail" required="required" type="email"> 
+					
+					
+					<p><b>Behandelingen?</b></p>
+					<div class="form-check">
+						<input class="form-check-input" id="flexCheckDefault" type="checkbox" value=""> <label class="form-check-label" for="flexCheckDefault">Kriebelvlinder</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" id="flexCheckDefault" type="checkbox" value=""> <label class="form-check-label" for="flexCheckDefault">Elektrisch botje</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" id="flexCheckDefault" type="checkbox" value=""> <label class="form-check-label" for="flexCheckDefault">Broodbuik</label>
+					</div>
+				</div><button class="btn btn-outline-warning" type="submit">Afsrpaak maken!</button>
+			</form>
+        </div>
+ 
+    
+    
+    
+</div>
 </body>
 </html>

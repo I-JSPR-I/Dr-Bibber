@@ -31,3 +31,23 @@ text-align: center;
 html{
     scroll-behavior: smooth;
 }
+.table-hover tbody tr:hover td{
+  background-color: beige;
+}
+ .modal {
+            text-align: center;
+        }
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
+.forum input {
+	margin-bottom: 20px;
+}
+
+.forum select {
+	margin-bottom: 20px;
